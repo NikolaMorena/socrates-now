@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_knowledge_keyword">
+    <kb_knowledge_keyword action="INSERT_OR_UPDATE">
+        <keywords>5c26241d2f630010188559a72799b6a9,e0062c992f630010188559a72799b6ae,ff16e01d2f630010188559a72799b605,6b16a01d2f630010188559a72799b601,9c062c992f630010188559a72799b60a,770664d92f630010188559a72799b6bc,ef0624d92f630010188559a72799b6ca,1b16201d2f630010188559a72799b6bf,491628d92f630010188559a72799b66b,8426e01d2f630010188559a72799b6da,730664d92f630010188559a72799b677,2916a8d92f630010188559a72799b65d,2c26641d2f630010188559a72799b646,eff568992f630010188559a72799b6e2,dc062c992f630010188559a72799b635,7a06e0d92f630010188559a72799b611,a616acd92f630010188559a72799b682,63f5a8992f630010188559a72799b646,b716a01d2f630010188559a72799b65e,aa06a0d92f630010188559a72799b636,a8062c992f630010188559a72799b6dd,8406e8992f630010188559a72799b620</keywords>
+        <knowledge display_value="KB0000013">845ee43187032100deddb882a2e3ecda</knowledge>
+        <sys_class_name>kb_knowledge_keyword</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 14:14:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>52d719512f270010188559a72799b615</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Socrates" source="x_463104_socrates">4d2598912f230010188559a72799b6df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Socrates">4d2598912f230010188559a72799b6df</sys_scope>
+        <sys_update_name>kb_knowledge_keyword_52d719512f270010188559a72799b615</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-16 11:16:55</sys_updated_on>
+    </kb_knowledge_keyword>
+</record_update>

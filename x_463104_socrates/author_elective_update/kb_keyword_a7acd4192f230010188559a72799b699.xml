@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_keyword">
+    <kb_keyword action="DELETE">
+        <keyword>Cooperative_Organizations_To_Finance_Cro</keyword>
+        <sys_class_name>kb_keyword</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 09:55:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a7acd4192f230010188559a72799b699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cooperative_Organizations_To_Finance_Cro</sys_name>
+        <sys_package display_value="Socrates" source="x_463104_socrates">4d2598912f230010188559a72799b6df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Socrates">4d2598912f230010188559a72799b6df</sys_scope>
+        <sys_update_name>kb_keyword_a7acd4192f230010188559a72799b699</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-13 09:55:55</sys_updated_on>
+    </kb_keyword>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Socrates">4d2598912f230010188559a72799b6df</application>
+        <file_path/>
+        <instance_id>d0a668c6db61cc10387021c4059619a0</instance_id>
+        <instance_name>dev95827</instance_name>
+        <name>kb_keyword_a7acd4192f230010188559a72799b699</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_keyword"><kb_keyword action="INSERT_OR_UPDATE"><keyword>Cooperative_Organizations_To_Finance_Cro</keyword><sys_class_name>kb_keyword</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-13 09:55:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a7acd4192f230010188559a72799b699</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cooperative_Organizations_To_Finance_Cro</sys_name><sys_package display_value="Socrates" source="x_463104_socrates">4d2598912f230010188559a72799b6df</sys_package><sys_policy/><sys_scope display_value="Socrates">4d2598912f230010188559a72799b6df</sys_scope><sys_update_name>kb_keyword_a7acd4192f230010188559a72799b699</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-13 09:55:55</sys_updated_on></kb_keyword></record_update>]]></payload>
+        <payload_hash>1959073807</payload_hash>
+        <record_name>Cooperative_Organizations_To_Finance_Cro</record_name>
+        <reverted_from/>
+        <source>eadeb1002f130010188559a72799b6d3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2020-02-26 09:36:45</sys_created_on>
+        <sys_id>4d41a8512f630010188559a72799b60e</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17080db0fc80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Knowledge keyword</type>
+        <update_guid>0d41a851c763001011f8cd0922976a0e</update_guid>
+        <update_guid_history>0d41a851c763001011f8cd0922976a0e:1959073807</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Cooperative_Organizations_To_Finance_Cro">c941a8512f630010188559a72799b60f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 10:15:57</sys_created_on>
+        <sys_db_object display_value="" name="kb_keyword">kb_keyword</sys_db_object>
+        <sys_id>0a9e2beb53854a28a7290a14a1bc6d24</sys_id>
+        <sys_metadata>a7acd4192f230010188559a72799b699</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cooperative_Organizations_To_Finance_Cro</sys_name>
+        <sys_package display_value="Socrates" source="x_463104_socrates">4d2598912f230010188559a72799b6df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Socrates">4d2598912f230010188559a72799b6df</sys_scope>
+        <sys_scope_delete display_value="">1584fdc9ded44933808e716fb90f6a29</sys_scope_delete>
+        <sys_update_name>kb_keyword_a7acd4192f230010188559a72799b699</sys_update_name>
+        <sys_update_version display_value="kb_keyword_a7acd4192f230010188559a72799b699">4d41a8512f630010188559a72799b60e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-13 10:15:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

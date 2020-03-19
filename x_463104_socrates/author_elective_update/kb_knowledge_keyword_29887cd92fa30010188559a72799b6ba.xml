@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_knowledge_keyword">
+    <kb_knowledge_keyword action="DELETE">
+        <keywords>22166cd92f630010188559a72799b6c0,a916a8d92f630010188559a72799b63a</keywords>
+        <knowledge display_value="KB0010003">3a46b2d62f530010188559a72799b658</knowledge>
+        <sys_class_name>kb_knowledge_keyword</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 11:57:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>29887cd92fa30010188559a72799b6ba</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Socrates" source="x_463104_socrates">4d2598912f230010188559a72799b6df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Socrates">4d2598912f230010188559a72799b6df</sys_scope>
+        <sys_update_name>kb_knowledge_keyword_29887cd92fa30010188559a72799b6ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-13 11:59:15</sys_updated_on>
+    </kb_knowledge_keyword>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Socrates">4d2598912f230010188559a72799b6df</application>
+        <file_path/>
+        <instance_id>d0a668c6db61cc10387021c4059619a0</instance_id>
+        <instance_name>dev95827</instance_name>
+        <name>kb_knowledge_keyword_29887cd92fa30010188559a72799b6ba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_knowledge_keyword"><kb_knowledge_keyword action="INSERT_OR_UPDATE"><keywords>22166cd92f630010188559a72799b6c0,a916a8d92f630010188559a72799b63a</keywords><knowledge display_value="KB0010003">3a46b2d62f530010188559a72799b658</knowledge><sys_class_name>kb_knowledge_keyword</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-13 11:57:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>29887cd92fa30010188559a72799b6ba</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="Socrates" source="x_463104_socrates">4d2598912f230010188559a72799b6df</sys_package><sys_policy/><sys_scope display_value="Socrates">4d2598912f230010188559a72799b6df</sys_scope><sys_update_name>kb_knowledge_keyword_29887cd92fa30010188559a72799b6ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-13 11:59:15</sys_updated_on></kb_knowledge_keyword></record_update>]]></payload>
+        <payload_hash>-647559335</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>dd2598912f230010188559a72799b6e1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 11:59:15</sys_created_on>
+        <sys_id>c6e83cd92fa30010188559a72799b6f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170d3c349730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-13 11:59:15</sys_updated_on>
+        <type>Knowledge keyword</type>
+        <update_guid>8ee83cd965a30010ed78c15649c765f2</update_guid>
+        <update_guid_history>8ee83cd965a30010ed78c15649c765f2:-647559335,e9887cd940a300109dd40dd970d31bbb:-1584816611</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4149f41d2fa30010188559a72799b6a9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 12:00:49</sys_created_on>
+        <sys_db_object display_value="" name="kb_knowledge_keyword">kb_knowledge_keyword</sys_db_object>
+        <sys_id>ce781e5cb9a5491a835905d196c111c9</sys_id>
+        <sys_metadata>29887cd92fa30010188559a72799b6ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Socrates" source="x_463104_socrates">4d2598912f230010188559a72799b6df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Socrates">4d2598912f230010188559a72799b6df</sys_scope>
+        <sys_scope_delete display_value="">1584fdc9ded44933808e716fb90f6a29</sys_scope_delete>
+        <sys_update_name>kb_knowledge_keyword_29887cd92fa30010188559a72799b6ba</sys_update_name>
+        <sys_update_version display_value="kb_knowledge_keyword_29887cd92fa30010188559a72799b6ba">c6e83cd92fa30010188559a72799b6f3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-13 12:00:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>EnrichKnowledgeArticles</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[var articlesProcessed=0;
+var keywordsAdded=0;
+var r = new sn_ws.RESTMessageV2('x_463104_socrates.Enrichment', 'Enrich');
+var knowledge=new GlideRecord('kb_knowledge');
+knowledge.query();
+while(knowledge.next()){
+	gs.info(knowledge.text);
+    r.setRequestBody(knowledge.short_description+". "+knowledge.text);
+    var response = r.execute();
+    var responseBody = response.getBody();
+    var httpStatus = response.getStatusCode();
+    var keywords = JSON.parse(responseBody);
+    var keywords_id = [];
+	keywords.forEach(function (keyword, index) {
+        var preferredName_ = keyword.split(" ").join("_");
+        var kb_keyword = new GlideRecord('kb_keyword');
+        if (kb_keyword.get('keyword', preferredName_)) {
+            gs.info(kb_keyword.keyword + " found in the keywords");
+            keywords_id.push(kb_keyword.sys_id);
+        } else {
+            gs.info(preferredName_ + " not found in the keywords");
+        }
+    });
+    var kb_knowledge_keyword = new GlideRecord('kb_knowledge_keyword');
+	if (!kb_knowledge_keyword.get('knowledge', knowledge.sys_id)){
+		kb_knowledge_keyword.initialize();
+		kb_knowledge_keyword.knowledge = knowledge.sys_id;
+		kb_knowledge_keyword.keywords = keywords_id.join();
+		kb_knowledge_keyword.insert();
+		gs.info("Insert completed");
+	}
+	else{
+		kb_knowledge_keyword.keywords = keywords_id.join();
+		kb_knowledge_keyword.update();
+		gs.info("Update completed");
+	}
+	keywordsAdded+=keywords_id.length;
+	articlesProcessed++;
+}
+gs.info(articlesProcessed + " KB artciles enrcihed with " + keywordsAdded + " keywords");]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 13:56:23</sys_created_on>
+        <sys_id>01c1191d2fe30010188559a72799b6d1</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>EnrichKnowledgeArticles</sys_name>
+        <sys_package display_value="Socrates" source="x_463104_socrates">4d2598912f230010188559a72799b6df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Socrates">4d2598912f230010188559a72799b6df</sys_scope>
+        <sys_update_name>sys_script_fix_01c1191d2fe30010188559a72799b6d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-16 11:16:31</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

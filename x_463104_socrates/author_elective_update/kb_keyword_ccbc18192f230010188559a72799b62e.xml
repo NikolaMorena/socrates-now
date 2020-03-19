@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_keyword">
+    <kb_keyword action="DELETE">
+        <keyword>Vanguard_Inflation_Protected_Securities_</keyword>
+        <sys_class_name>kb_keyword</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 09:55:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ccbc18192f230010188559a72799b62e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vanguard_Inflation_Protected_Securities_</sys_name>
+        <sys_package display_value="Socrates" source="x_463104_socrates">4d2598912f230010188559a72799b6df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Socrates">4d2598912f230010188559a72799b6df</sys_scope>
+        <sys_update_name>kb_keyword_ccbc18192f230010188559a72799b62e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-13 09:55:57</sys_updated_on>
+    </kb_keyword>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Socrates">4d2598912f230010188559a72799b6df</application>
+        <file_path/>
+        <instance_id>d0a668c6db61cc10387021c4059619a0</instance_id>
+        <instance_name>dev95827</instance_name>
+        <name>kb_keyword_ccbc18192f230010188559a72799b62e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_keyword"><kb_keyword action="INSERT_OR_UPDATE"><keyword>Vanguard_Inflation_Protected_Securities_</keyword><sys_class_name>kb_keyword</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-13 09:55:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ccbc18192f230010188559a72799b62e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Vanguard_Inflation_Protected_Securities_</sys_name><sys_package display_value="Socrates" source="x_463104_socrates">4d2598912f230010188559a72799b6df</sys_package><sys_policy/><sys_scope display_value="Socrates">4d2598912f230010188559a72799b6df</sys_scope><sys_update_name>kb_keyword_ccbc18192f230010188559a72799b62e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-13 09:55:57</sys_updated_on></kb_keyword></record_update>]]></payload>
+        <payload_hash>622906151</payload_hash>
+        <record_name>Vanguard_Inflation_Protected_Securities_</record_name>
+        <reverted_from/>
+        <source>eadeb1002f130010188559a72799b6d3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2020-02-26 09:36:45</sys_created_on>
+        <sys_id>ab61a0d12f630010188559a72799b64e</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17080db0fc80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Knowledge keyword</type>
+        <update_guid>6b61a0d157630010d12103de94c7fc4e</update_guid>
+        <update_guid_history>6b61a0d157630010d12103de94c7fc4e:622906151</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Vanguard_Inflation_Protected_Securities_">2b61a0d12f630010188559a72799b64f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 10:16:41</sys_created_on>
+        <sys_db_object display_value="" name="kb_keyword">kb_keyword</sys_db_object>
+        <sys_id>86bb5ef1a4c643bd91ff40a547977d31</sys_id>
+        <sys_metadata>ccbc18192f230010188559a72799b62e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vanguard_Inflation_Protected_Securities_</sys_name>
+        <sys_package display_value="Socrates" source="x_463104_socrates">4d2598912f230010188559a72799b6df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Socrates">4d2598912f230010188559a72799b6df</sys_scope>
+        <sys_scope_delete display_value="">1584fdc9ded44933808e716fb90f6a29</sys_scope_delete>
+        <sys_update_name>kb_keyword_ccbc18192f230010188559a72799b62e</sys_update_name>
+        <sys_update_version display_value="kb_keyword_ccbc18192f230010188559a72799b62e">ab61a0d12f630010188559a72799b64e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-13 10:16:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

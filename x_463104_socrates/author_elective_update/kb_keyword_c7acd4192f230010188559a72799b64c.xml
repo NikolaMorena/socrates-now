@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_keyword">
+    <kb_keyword action="DELETE">
+        <keyword>World_Professional_Association_For_Trans</keyword>
+        <sys_class_name>kb_keyword</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 09:55:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c7acd4192f230010188559a72799b64c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>World_Professional_Association_For_Trans</sys_name>
+        <sys_package display_value="Socrates" source="x_463104_socrates">4d2598912f230010188559a72799b6df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Socrates">4d2598912f230010188559a72799b6df</sys_scope>
+        <sys_update_name>kb_keyword_c7acd4192f230010188559a72799b64c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-13 09:55:54</sys_updated_on>
+    </kb_keyword>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Socrates">4d2598912f230010188559a72799b6df</application>
+        <file_path/>
+        <instance_id>d0a668c6db61cc10387021c4059619a0</instance_id>
+        <instance_name>dev95827</instance_name>
+        <name>kb_keyword_c7acd4192f230010188559a72799b64c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_keyword"><kb_keyword action="INSERT_OR_UPDATE"><keyword>World_Professional_Association_For_Trans</keyword><sys_class_name>kb_keyword</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-13 09:55:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c7acd4192f230010188559a72799b64c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>World_Professional_Association_For_Trans</sys_name><sys_package display_value="Socrates" source="x_463104_socrates">4d2598912f230010188559a72799b6df</sys_package><sys_policy/><sys_scope display_value="Socrates">4d2598912f230010188559a72799b6df</sys_scope><sys_update_name>kb_keyword_c7acd4192f230010188559a72799b64c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-13 09:55:54</sys_updated_on></kb_keyword></record_update>]]></payload>
+        <payload_hash>1538768401</payload_hash>
+        <record_name>World_Professional_Association_For_Trans</record_name>
+        <reverted_from/>
+        <source>eadeb1002f130010188559a72799b6d3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2020-02-26 09:36:45</sys_created_on>
+        <sys_id>4661ac912f630010188559a72799b683</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17080db0fc80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Knowledge keyword</type>
+        <update_guid>0661ac9162630010db41c583736d9f83</update_guid>
+        <update_guid_history>0661ac9162630010db41c583736d9f83:1538768401</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="World_Professional_Association_For_Trans">c261ac912f630010188559a72799b684</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 10:16:35</sys_created_on>
+        <sys_db_object display_value="" name="kb_keyword">kb_keyword</sys_db_object>
+        <sys_id>1a69187498524d46b73a8ad6beb5df79</sys_id>
+        <sys_metadata>c7acd4192f230010188559a72799b64c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>World_Professional_Association_For_Trans</sys_name>
+        <sys_package display_value="Socrates" source="x_463104_socrates">4d2598912f230010188559a72799b6df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Socrates">4d2598912f230010188559a72799b6df</sys_scope>
+        <sys_scope_delete display_value="">1584fdc9ded44933808e716fb90f6a29</sys_scope_delete>
+        <sys_update_name>kb_keyword_c7acd4192f230010188559a72799b64c</sys_update_name>
+        <sys_update_version display_value="kb_keyword_c7acd4192f230010188559a72799b64c">4661ac912f630010188559a72799b683</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-13 10:16:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

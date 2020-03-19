@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_knowledge_keyword">
+    <kb_knowledge_keyword action="INSERT_OR_UPDATE">
+        <keywords>7bf5a8992f630010188559a72799b6ec,6b16a01d2f630010188559a72799b601,0826e01d2f630010188559a72799b696,2016e4d92f630010188559a72799b6a4,9e0660d92f630010188559a72799b640,8216e8d92f630010188559a72799b6f6,d6166cd92f630010188559a72799b65a,cf16201d2f630010188559a72799b633,f50620d92f630010188559a72799b638,17f568992f630010188559a72799b648,a426641d2f630010188559a72799b689,aa06a0d92f630010188559a72799b636,9716201d2f630010188559a72799b6c1,d60660d92f630010188559a72799b625,041664d92f630010188559a72799b6df,b716a01d2f630010188559a72799b65e,2206a0d92f630010188559a72799b636,dc062c992f630010188559a72799b635,7a06e0d92f630010188559a72799b611,bf0664d92f630010188559a72799b652,7216acd92f630010188559a72799b6e6,68062c992f630010188559a72799b6ad,ce162cd92f630010188559a72799b63b,41066c992f630010188559a72799b6dc,63f5a8992f630010188559a72799b646,28062c992f630010188559a72799b6df,1f16601d2f630010188559a72799b607,a616acd92f630010188559a72799b682,0e0620d92f630010188559a72799b6bf,eff568992f630010188559a72799b6dd</keywords>
+        <knowledge display_value="KB0000019">8f27857187032100deddb882a2e3ec0f</knowledge>
+        <sys_class_name>kb_knowledge_keyword</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-13 14:14:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9ad719512f270010188559a72799b626</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Socrates" source="x_463104_socrates">4d2598912f230010188559a72799b6df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Socrates">4d2598912f230010188559a72799b6df</sys_scope>
+        <sys_update_name>kb_knowledge_keyword_9ad719512f270010188559a72799b626</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-16 11:16:57</sys_updated_on>
+    </kb_knowledge_keyword>
+</record_update>
